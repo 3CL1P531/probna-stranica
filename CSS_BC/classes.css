@@ -1,0 +1,120 @@
+/*@media(min-width: 0px) and (max-width: 1600px){}*/
+body{
+    background-color: #077054;
+}
+
+h1{
+    text-align: center;
+    color: #99fa99;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-stretch: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2{
+    text-align: center;
+    color: #b6d8cf;
+    font-size: 26px;
+    font-family: 'Nixie One', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.izbori{
+    position: relative;
+    left: 25%;
+    color: #b6d8cf;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin-top:-30px;
+    padding: 0;
+    margin-bottom: -60px;
+}
+
+a
+{
+   text-decoration:none;
+   color: #b6d8cf;
+}
+a:hover{
+    color: #E5BEEC;
+}
+
+/*srednji dio*/
+.podloga{
+    position:relative;
+    left:25%;
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.podloga img{
+    position: absolute;
+    left: 55%;
+    margin-top: 30px;    
+}
+
+
+/*donji dio stranice*/
+.prvarec{
+    color:#99fa99;
+    position:absolute;
+    left:25%;
+   font-size: 1.5em;
+   margin-bottom: -20px;
+   margin-top: -20px;
+   font-family: 'Lato', serif;
+   letter-spacing: -2px;
+}
+.prvarec img{
+    display:inline-block;
+    height: 4%;
+    width: 4%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 16%;
+}
+#manjiParagraf{
+    font-size: 0.4em;
+    margin-top: -20px;
+    color: white;
+    letter-spacing: 0;
+}
+
+/*dodatni css za classes.html*/
+.podloga h3{
+    position:relative;
+    color: #21a51e;
+    font-size: 35px;
+    font-family: 'Nixie One', cursive;
+    left: 5%;
+    top: 5%;
+}
+.podloga h4{
+    position: relative;
+    color: #315F52;
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    left: 5%;
+    top: 5%;
+}
+.veciParagraf{
+    position: relative;
+    color: #315F52;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    left:5%;
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+.veciParagraf a{
+    color: #315F52;
+}
